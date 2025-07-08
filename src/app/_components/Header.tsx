@@ -34,7 +34,7 @@ export default function Header() {
                 alt="small triangle"
                 width={32}
                 height={28}
-                className="absolute left-[294px] top-[246px] rotate-[-127deg]"
+                className="absolute left-[263px] top-[236px] rotate-[-127deg]"
             />
             <Image
                 src="/assets/image/mc-triangle.png"
@@ -69,14 +69,14 @@ export default function Header() {
                 alt="Server Rack"
                 width={32}
                 height={28}
-                className="absolute right-[306px] top-[195px] rotate-[-5deg]"
+                className="absolute right-[295px] top-[183px] rotate-[-5deg]"
             />
             <Image
                 src="/assets/image/triangle-lg.png"
                 alt="triangle besar"
                 width={90}
                 height={81}
-                className="absolute right-[180px] top-[264px]"
+                className="absolute right-[108px] top-[264px]"
             />
             <Image
                 src="/assets/image/panah-kiri.png"

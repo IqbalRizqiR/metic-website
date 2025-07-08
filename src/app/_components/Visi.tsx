@@ -3,8 +3,7 @@ import Image from "next/image";
 export default function Visi() {
     return (
         <>
-            <div className="relative bg-secondary w-full mt-31">
-        
+        <div className="relative bg-secondary w-full mt-31">
             <div className="absolute -top-[15px] left-0 w-full overflow-hidden leading-none">
             <svg width="1440" height="60" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
                 <path d="M0 20 Q720 50 1440 20 L1440 0 Q720 10 0 0 Z" fill="url(#gradienName)"/>

@@ -28,7 +28,7 @@ export default function DivisionSection() {
                 className="mx-auto py-15"
               />
             </div>
-            <div className="text-center">
+            <div className="text-center w-[292px]">
               <h1 className="text-[22.5px] font-[700] text-[#333333]">MokletDev</h1>
               <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">Divisi yang fokus pada <br /> pengembangan teknologi dan <br /> sebagai pusat inovasi.</p>
               <a href="" className="block mt-[10px] mx-auto py-[9px] w-[172px] text-center h-[39px] rounded-[20px] bg-primary text-white font-[500] text-[12px] ">
@@ -47,9 +47,9 @@ export default function DivisionSection() {
                 className="mx-auto py-20"
               />
             </div>
-            <div className="text-center">
+            <div className="text-center w-[292px]">
               <h1 className="text-[22.5px] font-[700] text-[#333333]">Medcom</h1>
-              <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">Berfokus pada pengelolaan konten <br /> kreatif, manajemen media sosial, <br /> publikasi, serta komunikasi digital</p>
+              <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">Berfokus pada pengelolaan konten kreatif, manajemen media sosial, publikasi, serta komunikasi digital</p>
               <a href="" className="block mt-[10px] mx-auto py-[9px] w-[172px] text-center h-[39px] rounded-[20px] bg-primary text-white font-[500] text-[12px] ">
                 Read More
                 <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
@@ -66,7 +66,7 @@ export default function DivisionSection() {
                 className="mx-auto py-22"
               />
             </div>
-            <div className="text-center">
+            <div className="text-center w-[292px]">
               <h1 className="text-[22.5px] font-[700] text-[#333333]">Metic Merch</h1>
               <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">Unit bisnis yang menjalankan produksi dan penjualan merchandise</p>
               <a href="" className="block mt-[10px] mx-auto py-[9px] w-[172px] text-center h-[39px] rounded-[20px] bg-primary text-white font-[500] text-[12px] ">
