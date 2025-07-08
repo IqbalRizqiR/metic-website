@@ -5,6 +5,7 @@ import Navbar from "./_components/Navbar";
 import DivisionSection from "./_components/DivisionSection";
 import Header from "./_components/Header";
 import Visi from "./_components/Visi";
+import Leader from "./_components/Leader";
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
           <div className="w-[40%]"></div>
         </div>
         <div className="block bg-[#E9E2EA] h-5"></div>
+        <Leader/>
     </div>
     </>
   );
