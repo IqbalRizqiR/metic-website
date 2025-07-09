@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function DivisionSection() {
   return (
     <>
-      <div className="bg-white w-full mt-16 pb-10">
+      <div className="bg-white w-full mt-16 pb-10" id="divisi">
         <div className="text-center">
           <h4 className="text-[15px] font-[500] text-[#B8B8B8]">
             Our Division

@@ -39,7 +39,7 @@ const Leader: React.FC<{ datas: LeaderComponent[] }> = ({ datas }) => {
         {datas.slice(1, 3).map((leader, index) => (
           <CardLeader key={index} data={leader} />
         ))}
-      </div>
+      </div> 
 
       {/* Baris 3: Divisi */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
