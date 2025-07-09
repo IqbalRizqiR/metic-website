@@ -39,7 +39,7 @@ const TrackRecord: React.FC<{ datas: TrackRecordProps[] }> = ({ datas }) => {
     return () => clearInterval(timer);
   }, [length]);
   return (
-    <div className="relative bg-secondary w-full mt-31">
+    <div className="relative bg-secondary w-full mt-31" id="track">
       <div className="absolute -top-[15px] left-0 w-full overflow-hidden leading-none">
         <svg
           width="1440"

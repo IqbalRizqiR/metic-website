@@ -113,7 +113,7 @@ export const TrackData: TrackRecordProps[] = [
     type: "International",
     country: "Malaysia",
   },
-]
+];
 export const LeadersData: LeaderComponent[] = [
   {
     name: "Achmad Ilham Ramadhani",
@@ -146,3 +146,22 @@ export const LeadersData: LeaderComponent[] = [
     image: "/assets/image/LeadMerch.png",
   },
 ];
+
+export interface DivisiProps {
+  id: number;
+  name: string;
+  image: string;
+  desc: string;
+  prokja: {
+    title: string;
+    desc: string;
+  }[];
+  portfolio: {
+    title: string;
+    desc: string;
+    image: string;
+    link: string;
+    date: string;
+  };
+}
+export const divisi: DivisiProps[] = [];
