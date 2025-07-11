@@ -1,12 +1,6 @@
 import { DivisiProps } from "@/app/_components/const/datas";
 import Image from "next/image";
-
-interface HeaderProps {
-  title: string;
-  image: string;
-  desc: string;
-}
-export default function Header({title, image, desc}: HeaderProps) {
+export default function Header({ data }: { data: DivisiProps }) {
   return (
     <>
       <Image
@@ -96,27 +90,25 @@ export default function Header({title, image, desc}: HeaderProps) {
       <div className="mt-28 pb-10">
         <div className="text-center">
           <h1 className="font-[700] text-primary leading-[54px] text-[48.75px]">
-            Moklet Developer
+            {data.alias}
           </h1>
-          <p className="text-[#515050] mt-[17px] font-[400] text-[15px]">
-            MokletDev is the developer division under the Moklet Education of
-            Technology and Informatic Club <br /> (METIC) at SMK Telkom Malang,
-            also known as <span className="font-[600]">Moklet</span>. We’re a
-            team of passionate students in <br /> software development, focused
-            on creating innovative IT solutions
-          </p>
+          <p
+            className="text-[#515050] mt-[17px] font-[400] text-[15px]"
+            dangerouslySetInnerHTML={{ __html: data.desc }}
+          />
         </div>
         <div className="block drop-shadow-[0_6px_61px_#E15F60] mx-auto w-[247px] h-[247px] mt-[73px] bg-primary rounded-full">
-          <Image
-            src="/assets/image/logo-medcom.png"
-            alt="Moklet Dev"
-            width={123}
-            height={88}
-            className="mx-auto py-20"
-          />
+          <div className="flex w-full h-full justify-center items-center">
+            <Image
+              src={`${data.image}`}
+              alt={`${data.name}`}
+              width={93}
+              height={119}
+              className="object-contain object-center"
+            />
+          </div>
         </div>
       </div>
     </>
   );
 }
-

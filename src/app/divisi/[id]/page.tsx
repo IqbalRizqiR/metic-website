@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./_components/Header";
 import ProgramKerjaHead from "./_components/ProgramKerjaHead";
 import Portofolio from "./_components/Portofolio";
@@ -6,13 +5,13 @@ import Team from "./_components/Team";
 import { divisi } from "@/app/_components/const/datas";
 
 interface Params {
-  params: {id: number}
+  params: { id: string };
 }
 
 export async function generateStaticParams() {
   return divisi.map((d) => ({
     id: d.id,
-  }))
+  }));
 }
 
 export default function DivisionPage({ params: { id } }: Params) {
@@ -22,7 +21,7 @@ export default function DivisionPage({ params: { id } }: Params) {
   }
   return (
     <>
-      <Header title={division.name} image={division.image} desc={division.desc} />
+      <Header data={division} />
       <ProgramKerjaHead prokja={division.prokja} />
       <Portofolio />
       <Team />

@@ -38,7 +38,7 @@ export default function ProgramKerjaHead({prokja}: ProgramKerjaHeadProps ) {
         </div>
         <div className="pt-30">
           {prokja?.map((item, index) => (
-            <div className="absolute right-[134px] z-[222]">
+            <div className="absolute right-[134px] z-[222]" key={index}>
               <div className=" px-[10px] py-[14px] bg-[#F9DCDC] border-[1px] rounded-[12px_12px_12px_0px]">
                 <h5 className="text-primary text-[28px] font-[700]">{item.title}</h5>
                 <p className="text-primary font-[400] text-[28px] ">{item.desc}</p>

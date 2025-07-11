@@ -148,20 +148,57 @@ export const LeadersData: LeaderComponent[] = [
 ];
 
 export interface DivisiProps {
-  id: number;
+  id: string;
   name: string;
   image: string;
+  preview: string;
+  alias:string;
   desc: string;
   prokja: {
     title: string;
     desc: string;
   }[];
   portfolio: {
+    id: string;
     title: string;
     desc: string;
     image: string;
     link: string;
     date: string;
-  };
+  }[];
+  team: {
+    name: string;
+    role: string;
+    image: string;
+  }[];
 }
-export const divisi: DivisiProps[] = [];
+export const divisi: DivisiProps[] = [
+  {
+    image: "/assets/image/logo-mokletdev.png",
+    preview:
+      " Divisi yang fokus pada  pengembangan teknologi dan sebagai pusat inovasi.",
+    desc: `MokletDev is the developer division under the Moklet Education of
+            Technology and Informatic Club <br /> (METIC) at SMK Telkom Malang,
+            also known as <span className="font-[600]">Moklet</span>. We’re a
+            team of passionate students in <br /> software development, focused
+            on creating innovative IT solutions`,
+    name: "MokletDev",
+    alias:"Moklet Developer",
+    id: "1",
+    prokja: [],
+    portfolio: [],
+    team: [],
+  },
+  {
+    image: "/assets/image/logo-medcom.png",
+    preview:
+      "Berfokus pada pengelolaan konten kreatif, manajemen media sosial, publikasi, serta komunikasi digital",
+    desc:``,
+    name: "Medcom",
+    alias:"Media Communication",
+    id: "2",
+    prokja: [],
+    portfolio: [],
+    team: [],
+  },
+];
