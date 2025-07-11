@@ -152,7 +152,7 @@ export interface DivisiProps {
   name: string;
   image: string;
   preview: string;
-  alias:string;
+  alias: string;
   desc: string;
   prokja: {
     title: string;
@@ -161,7 +161,7 @@ export interface DivisiProps {
   portfolio: {
     id: string;
     title: string;
-    desc: string;
+    sosmed: string;
     image: string;
     link: string;
     date: string;
@@ -183,19 +183,226 @@ export const divisi: DivisiProps[] = [
             team of passionate students in <br /> software development, focused
             on creating innovative IT solutions`,
     name: "MokletDev",
-    alias:"Moklet Developer",
+    alias: "Moklet Developer",
     id: "1",
-    prokja: [],
-    portfolio: [],
-    team: [],
+    prokja: [
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+    ],
+    portfolio: [
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+      {
+        date: "10-10-2024",
+        sosmed: "Mokletdev",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Telkom Society",
+      },
+    ],
+    team: [
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Jean Richnerd R.",
+        role: "33 Metizen",
+      },
+    ],
   },
   {
     image: "/assets/image/logo-medcom.png",
     preview:
       "Berfokus pada pengelolaan konten kreatif, manajemen media sosial, publikasi, serta komunikasi digital",
-    desc:``,
+    desc: ``,
     name: "Medcom",
-    alias:"Media Communication",
+    alias: "Media Communication",
     id: "2",
     prokja: [],
     portfolio: [],

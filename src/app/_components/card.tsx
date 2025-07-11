@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { LeaderComponent } from "./Leader";
+import Link from "next/link";
 
 export const CardLeader: React.FC<{ data: LeaderComponent }> = ({ data }) => {
   return (
@@ -20,3 +21,97 @@ export const CardLeader: React.FC<{ data: LeaderComponent }> = ({ data }) => {
     </div>
   );
 };
+
+export const CardTeam: React.FC<{
+  data: { name: string; role: string; image: string };
+}> = ({ data }) => {
+  return (
+    <div className="flex items-center gap-4 bg-white rounded-xl px-4 py-3 shadow-md border border-[#E2E8F0]">
+      <div className="w-16 h-16 rounded-full overflow-hidden">
+        <Image
+          src={data.image}
+          alt={data.name}
+          width={64}
+          height={64}
+          className="object-cover w-full h-full"
+        />
+      </div>
+      <div>
+        <h3 className="text-base font-semibold text-[#A10000]">{data.name}</h3>
+        <p className="text-sm text-[#A10000] opacity-70">{data.role}</p>
+      </div>
+    </div>
+  );
+};
+
+interface PortfolioProps {
+  id: string;
+  title: string;
+  sosmed: string;
+  image: string;
+  link: string;
+  date: string;
+}
+
+export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
+  return (
+    <div className="relative bg-white rounded-2xl shadow-md overflow-hidden max-w-md">
+      {/* Image with Caption Overlay */}
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <Image
+          src={portfolio.image}
+          alt={portfolio.title}
+          fill
+          className="object-cover"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="px-6 pt-4 pb-6">
+        <div className="flex justify-between p-2">
+          <h3 className="text-[18px] text-[#A2181C] font-semibold mb-3 leading-snug">
+            {portfolio.title}
+          </h3>
+          <p className=" text-sm text-gray-400 z-10">{portfolio.date}</p>
+        </div>
+
+        {/* Instagram Info + Button */}
+        <div className="flex items-center justify-between">
+          {/* Instagram Section */}
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 rounded-md overflow-hidden">
+              <Image
+                src="/assets/image/ig-logo.png"
+                alt="Instagram"
+                width={24}
+                height={24}
+              />
+            </div>
+            <span className="text-gray-800 font-medium">
+              {portfolio.sosmed}
+            </span>
+          </div>
+
+          {/* Explore Button */}
+          <Link
+            href={portfolio.link}
+            className="bg-[#A2181C] hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 flex items-center gap-2">
+            Explore more
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

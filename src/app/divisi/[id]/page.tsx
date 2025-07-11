@@ -23,8 +23,8 @@ export default function DivisionPage({ params: { id } }: Params) {
     <>
       <Header data={division} />
       <ProgramKerjaHead prokja={division.prokja} />
-      <Portofolio />
-      <Team />
+      <Portofolio divisi={division}/>
+      <Team divisi={division}/>
     </>
   );
 }
