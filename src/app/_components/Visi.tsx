@@ -38,7 +38,7 @@ export default function Visi() {
                 className="absolute mt-[22.5px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] right-[270px] z-[1]"
             />
             <div className="absolute right-[301px] mt-[130px] z-[222]">
-                <div className="w-[221px] h-[58px] px-[34px] py-[14px] bg-[#F9DCDC] border-[1px] border-[E04E4E] font-[400] text-secondary-text text-[18px] text-center rounded-[12px_12px_0px_12px]">Ini nih Visi Misinya!</div>
+                <div className="w-[221px] h-[58px] px-[10px] py-[14px] bg-[#F9DCDC] border-[1px] border-[E04E4E] font-[400] text-secondary-text text-[18px] text-center rounded-[12px_12px_0px_12px]">Ini nih Visi Misinya!</div>
             </div>
             <div className="px-34 pb-[48px] pt-[26px]">
                 <div className="">
