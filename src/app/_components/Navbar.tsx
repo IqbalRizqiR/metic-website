@@ -16,10 +16,10 @@ interface NavOption {
 
 const navOptions: NavOption[] = [
   { title: "METIC", href: "/" },
-  { title: "Our Division", href: "/berita" },
-  { title: "Track Record", href: "/organisasi" },
-  { title: "Our Member", href: "/tentang" },
-  { title: "Benefit", href: "/kontributor" },
+  { title: "Our Division", href: "#divisi" },
+  { title: "Track Record", href: "#track" },
+  { title: "Our Member", href: "#leaders" },
+  { title: "Benefit", href: "#benefit" },
 ];
 
 export default function Navbar() {

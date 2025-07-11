@@ -113,7 +113,7 @@ export const TrackData: TrackRecordProps[] = [
     type: "International",
     country: "Malaysia",
   },
-]
+];
 export const LeadersData: LeaderComponent[] = [
   {
     name: "Achmad Ilham Ramadhani",
