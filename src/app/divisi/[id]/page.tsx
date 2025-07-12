@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export default async function DivisionPage({ params }: Params) {
-  const { id } = params;
+  const { id } = await params;
   const division = divisi.find((d) => d.id === id);
   if (!division) {
     return <div>Division not found</div>;
