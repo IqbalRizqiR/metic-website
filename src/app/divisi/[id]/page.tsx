@@ -4,18 +4,18 @@ import Portofolio from "./_components/Portofolio";
 import Team from "./_components/Team";
 import { divisi } from "@/app/_components/const/datas";
 
-interface PageProps {
-  params: { id: string };
-}
+type Params = Promise<{id: string}>;
 
-export function generateStaticParams(): PageProps["params"][] {
+export async function generateStaticParams() {
   return divisi.map((d) => ({
     id: d.id,
   }));
 }
 
-export default function DivisionPage({ params }: PageProps) {
-  const { id } = params;
+export default async function DivisionPage(props: { params: Params }) {
+  const params  = await props.params;
+  const id = await params.id;
+
   const division = divisi.find((d) => d.id === id);
   if (!division) {
     return <div>Division not found</div>;
