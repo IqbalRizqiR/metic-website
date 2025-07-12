@@ -1,3 +1,4 @@
+import { FAQCardProps } from "../card";
 import { LeaderComponent } from "../Leader";
 import { TrackRecordProps } from "../TrackRecord";
 
@@ -146,7 +147,43 @@ export const LeadersData: LeaderComponent[] = [
     image: "/assets/image/LeadMerch.png",
   },
 ];
-
+export const dataFAQ:FAQCardProps[] = [
+  {
+    profileImg: "/assets/image/ketuaintern.png",
+    question: "Gimana sih cara join METIC?",
+    responseTitle: "Easy banget lho!",
+    responseContent:
+      "Tinggal isi form pas open recruitment, pilih divisi yang kamu mau, terus ikutin seleksinya.<br /><strong>Jangan lupa siapin diri lo jadi versi lo yang paling keren ✌️</strong>",
+  },
+  {
+    profileImg: "/assets/image/ketuaintern.png",
+    question: "Gimana sih cara join METIC?",
+    responseTitle: "Easy banget lho!",
+    responseContent:
+      "Tinggal isi form pas open recruitment, pilih divisi yang kamu mau, terus ikutin seleksinya.<br /><strong>Jangan lupa siapin diri lo jadi versi lo yang paling keren ✌️</strong>",
+  },
+  {
+    profileImg: "/assets/image/ketuaintern.png",
+    question: "Gimana sih cara join METIC?",
+    responseTitle: "Easy banget lho!",
+    responseContent:
+      "Tinggal isi form pas open recruitment, pilih divisi yang kamu mau, terus ikutin seleksinya.<br /><strong>Jangan lupa siapin diri lo jadi versi lo yang paling keren ✌️</strong>",
+  },
+  {
+    profileImg: "/assets/image/ketuaintern.png",
+    question: "Gimana sih cara join METIC?",
+    responseTitle: "Easy banget lho!",
+    responseContent:
+      "Tinggal isi form pas open recruitment, pilih divisi yang kamu mau, terus ikutin seleksinya.<br /><strong>Jangan lupa siapin diri lo jadi versi lo yang paling keren ✌️</strong>",
+  },
+  {
+    profileImg: "/assets/image/ketuaintern.png",
+    question: "Gimana sih cara join METIC?",
+    responseTitle: "Easy banget lho!",
+    responseContent:
+      "Tinggal isi form pas open recruitment, pilih divisi yang kamu mau, terus ikutin seleksinya.<br /><strong>Jangan lupa siapin diri lo jadi versi lo yang paling keren ✌️</strong>",
+  },
+]
 export interface DivisiProps {
   id: string;
   name: string;

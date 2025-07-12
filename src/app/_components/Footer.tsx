@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -37,7 +38,11 @@ export default function Footer() {
                   <p className="text-black font-[500] text-[18px]">
                     Lead Of METIC
                   </p>
-                  <p className="text-black font-[500] text-[18px]">FAQ</p>
+                  <Link
+                    href={"#FAQ"}
+                    className="text-black font-[500] text-[18px]">
+                    FAQ
+                  </Link>
                 </div>
               </div>
               <div className="text-left">

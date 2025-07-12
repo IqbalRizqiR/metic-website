@@ -115,3 +115,53 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
     </div>
   );
 }
+
+export interface FAQCardProps {
+  profileImg: string;
+  question: string;
+  responseTitle: string;
+  responseContent: string;
+}
+
+export function FAQCard({
+  profileImg,
+  question,
+  responseTitle,
+  responseContent,
+}: FAQCardProps) {
+  return (
+    <div className="flex flex-col items-end gap-3 max-w-xl mx-auto">
+      {/* Question bubble */}
+      <div className="flex items-center gap-2">
+        <p className="bg-white/30 text-white px-4 py-2 rounded-2xl text-sm">
+          {question}
+        </p>
+        <Image
+          src={profileImg}
+          alt="Profile"
+          width={40}
+          height={40}
+          className="rounded-full"
+        />
+      </div>
+
+      {/* Response card */}
+      <div className="flex items-start gap-3">
+        <Image
+          src="/assets/image/mecaKeren.png" // ganti dengan path yang sesuai
+          alt="Mascot"
+          width={40}
+          height={40}
+          className="rounded-md"
+        />
+        <div className="bg-white rounded-xl p-4 shadow-md">
+          <p className="font-semibold mb-2">{responseTitle}</p>
+          <p
+            className="text-sm text-gray-700"
+            dangerouslySetInnerHTML={{ __html: responseContent }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
