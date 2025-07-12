@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Team({ divisi }: { divisi: DivisiProps }) {
   return (
     <>
-      <div className="relative pb-8 bg-secondary">
+      <div className="relative pb-35 bg-secondary">
         <div className="text-center pt-21">
           <Image
             src="/assets/image/cakar-kiri.png"
@@ -49,13 +49,8 @@ export default function Team({ divisi }: { divisi: DivisiProps }) {
             </div>
           </div>
         </div>
-        <div className="pt-[300px] px-20">
-          <div className="flex justify-between">
-            <p className="font-[400] text-[12px] text-white">Copyright &copy;</p>
-            <p className="font-[400] text-[12px] text-white">Powered by <span className="font-[600]">Metic</span></p>
-          </div>
-        </div>
       </div>
+      <div className="block bg-[#E9E2EA] h-5"></div>
     </>
   );
 }

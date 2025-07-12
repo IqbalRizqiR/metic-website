@@ -122,7 +122,7 @@ export const LeadersData: LeaderComponent[] = [
   },
   {
     name: "Sauqy Rahmatul Ramadhan",
-    role: "Ketua METIC",
+    role: "Ketua Umum",
     image: "/assets/image/ketuaMTC.png",
   },
   {
@@ -132,17 +132,17 @@ export const LeadersData: LeaderComponent[] = [
   },
   {
     name: "Naufal Nabil R.",
-    role: "Lead of Moklet Dev",
-    image: "/assets/image/LeadMokdev.png",
+    role: "MokletDev General Manager",
+    image: "/assets/image/ Metizen 32/Naufal-LeaderPage.png",
   },
   {
     name: "Muhammad Radika A. B.",
-    role: "Lead of Medcom",
+    role: "Medcom General Manager",
     image: "/assets/image/Leadmedcom.png",
   },
   {
     name: "Arsyad Ali M.",
-    role: "Lead of Merch",
+    role: "Merch General Manager",
     image: "/assets/image/LeadMerch.png",
   },
 ];
