@@ -318,7 +318,7 @@ export const divisi: DivisiProps[] = [
       {
         "name": "M Kevin Arif Rudianto ",
         "role": "Metizen 33",
-        "image": "/assets/image/Metizen 33"
+        "image": "/assets/image/Metizen 33/Kevin.jpg"
       },
       {
         "name": "Yahya Az-Zyahabby R",
