@@ -14,7 +14,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function DivisionPage({ params }: Params) {
+export default async function DivisionPage({ params }: {params: {id: string}}) {
   const { id } = await params;
   const division = divisi.find((d) => d.id === id);
   if (!division) {
