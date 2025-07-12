@@ -187,214 +187,246 @@ export const divisi: DivisiProps[] = [
     id: "1",
     prokja: [
       {
-        title: "Produksi ID Card Siswa dan Organisasi",
-        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+        title: "MokletDev go to DevFest",
+        desc: "Event yang di selenggarakan oleh Google Developer Group untuk eksplorasi teknologi terbaru seputar google. pelaksanaan nya setahun sekali",
       },
       {
-        title: "Produksi ID Card Siswa dan Organisasi",
-        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+        title: "Probation",
+        desc: "Workshop internal mokletdev untuk melatih softkill dan hardskill IT yang dibutuhkan dalam project, ada 2 kategori (mentoring dan sharing session).",
       },
       {
-        title: "Produksi ID Card Siswa dan Organisasi",
-        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+        title: "MokletDev go to Google I/O",
+        desc: "Event yang di selenggarakan oleh Google Developer Group secara berkala.",
       },
       {
-        title: "Produksi ID Card Siswa dan Organisasi",
-        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
-      },
-      {
-        title: "Produksi ID Card Siswa dan Organisasi",
-        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+        title: "Project Development",
+        desc: "Anggota mokletdev akan diberi akses terjun ke proyek langsung sesuai dengan skill/kemampuan anggota.",
       },
     ],
     portfolio: [
       {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
+        date: "01/01/2025",
+        sosmed: "mokletdev",
         id: "1",
         image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
+        link: "https://moklet.org/",
+        title: "Website Moklet.org",
       },
       {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
+        date: "01/01/2025",
+        sosmed: "mokletdev",
+        id: "2",
         image: "/assets/image/foto-bareng-triangle.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
+        title: "Website Digifest",
       },
       {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
+        date: "01/01/2025",
+        sosmed: "mokletdev",
+        id: "3",
         image: "/assets/image/foto-bareng-triangle.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
+        title: "Website E-Pilketos",
       },
       {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
+        date: "01/01/2025",
+        sosmed: "mokletdev",
+        id: "4",
         image: "/assets/image/foto-bareng-triangle.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
-      },
-      {
-        date: "10-10-2024",
-        sosmed: "Mokletdev",
-        id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Telkom Society",
+        title: "Website Moklet IT Fest",
       },
     ],
     team: [
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Naufal Nabil Ramadhan",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Abhinaya Dwi Putra M",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Haza Nasrullah K.",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Vincent Clause Junior ",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Aaron Zanett Samudra",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "M. Raka Aqil Ghifari ",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Fahrell Sandy Zhariif W",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Sayoga Sindhunata N",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "M. Zuhair Zuhdi",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Shabri Sebastian S",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Ryo Hariyono Angwyn",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Queen Nur Hafizah",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Rakha Adrian Nur Tanaya",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Syamraya Ibrahim A",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "M Faiz Annabil",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
       },
       {
-        image: "/assets/image/33-bara.png",
-        name: "Jean Richnerd R.",
-        role: "33 Metizen",
+        "name": "Violetta Emerald W",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
       },
-    ],
+      {
+        "name": "M Rezky Eksatama",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "M Kevin Arif Rudianto ",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Yahya Az-Zyahabby R",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Maulana Alfara S. ",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Fadlurrahman Yusuf Al F",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Jean Richnerd R",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Yohanes Capelliou S",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Esya Zachreva A",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Shofiyulloh Kamil",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Fakhriza Althaf F",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "M Keefa Syawal",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Iqbal Rizqi Ramadhan",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Tisha Ivana",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Achmad Rafi Akmal ",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Moh Abdul Azis",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Rahadyan Alfarisi",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "⁠M Dionesia Alfiansyah ",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Akira Saskara H",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Moh Abdul Azis",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Fathir Tegar N",
+        "role": "Metizen 33",
+        "image": "/assets/image/33-bara.png"
+      },
+      {
+        "name": "Arsyad Ali Mahardika ",
+        "role": "Metizen 32",
+        "image": "/assets/image/33-bara.png"
+      },
+      
+      
+      
+      ],
   },
   {
     image: "/assets/image/logo-medcom.png",
@@ -404,8 +436,403 @@ export const divisi: DivisiProps[] = [
     name: "Medcom",
     alias: "Media Communication",
     id: "2",
-    prokja: [],
-    portfolio: [],
-    team: [],
+    prokja: [
+      {
+        title: "Review Website",
+        desc: "Program inisiatif untuk memperkenalkan dan mengulas website project.",
+      },
+      {
+        title: "MeTor",
+        desc: "Program untuk memperkenalkan dan mengulas website projectProgram kurikulum untuk Software Engineer, Network and Computer Engineering and Game Dev. Berupa tutorial video pemrograman.",
+      },
+      {
+        title: "SnapShot Photobooth",
+        desc: "Program penyebaran informasi terkait lokasi photobooth, marketing dan dokumentasi.",
+      },
+    ],
+    portfolio: [
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://medcom.org/",
+        title: "Streaming Shine Angkatan 31",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "2",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Review Website MokletDev",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "3",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Editing MeTor",
+      },
+    ],
+    team: [
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M. Radika Afwa Bimalaksa",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Keyza Alvaro Faiq",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Fathimah Aqilah Zarrah",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M. Rabbani Aryanta",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "⁠M. Dionesia Alfiansyah ",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Pradipta Daniswara",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M. Zalmaladzi El-Shirazzi ",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Loi Lieant Ratri Leony",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Arsyad Dhiyaul Haq",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Rizky Ferdinand",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Aloysius Nathanael Purba ",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Feodora Ester",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Rizq Syafriano Valeant",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Fayola Khanza L",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Danish Shafiqa L Noerdars",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Habibi Mahatma S",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "⁠Azzura Ulfiatufathin M",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Indira Savida S",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "⁠M Raya Putra Ashiddiqi ",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Abdur Rasyid H",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Leon Adam Royyan ",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Latifa Irsyadiyah",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Hafidz Agil Abiyasa",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Ahmad Zaki",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Keefa Syawal",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Muhammad Zulkarnaen",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Moh Abdul Aziz",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Dzaky Azzam",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Muhamad Arifdiansyah",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Alfareza Hans P",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Kinan Shafin Ibrahim",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Fadi Alyuliansyah",
+        role: "Metizen 33"
+      },
+    ],
+  },
+  {
+    image: "/assets/image/logo-meticmerch.png",
+    preview:
+      "Divisi yang fokus pada pengembangan teknologi dan sebagai pusat inovasi.",
+    desc: ``,
+    name: "Metic Merch",
+    alias: "Metic Merch",
+    id: "3",
+    prokja: [
+      {
+        title: "Produksi ID Card Siswa dan Organisasi",
+        desc: "Melayani proses pembuatan ID card secara menyeluruh, mulai dari pengambilan foto, desain identitas visual, hingga proses pencetakan.",
+      },
+      {
+        title: "Layanan Photobooth untuk Berbagai Event",
+        desc: "Menyediakan jasa photobooth profesional untuk kegiatan seperti konser, wisuda, pernikahan, serta event sekolah lainnya.",
+      },
+      {
+        title: "Kerja Sama Produksi dengan Vendor Eksternal",
+        desc: "Menjalin kolaborasi strategis dengan vendor luar untuk memperluas kapasitas produksi serta meningkatkan kualitas hasil akhir.",
+      },
+      {
+        title: "Pengembangan Produk Merchandise Kreatif",
+        desc: "Menghadirkan beragam produk kreatif seperti stiker, banner, jersey, hingga filter media sosial yang dirancang secara eksklusif.",
+      },
+      {
+        title: "Penguatan Branding Eksternal METIC MERCH",
+        desc: "Melakukan pengembangan identitas dan citra METIC MERCH melalui logo, katalog, serta media promosi untuk meningkatkan eksistensi di luar organisasi.",
+      },
+    ],
+    portfolio: [
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "1",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://meticmerch.org/",
+        title: "Photobooth Shine Angkatan 31",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "2",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "Photobooth MGIP 2025",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "3",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://telkom-society.smktelkom-mlg.sch.id/",
+        title: "PhotoBooth EduFest 2025",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "4",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://meticmerch.org/",
+        title: "PhotoBooth Elqif 2025",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "5",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://meticmerch.org/",
+        title: "PhotoBooth Saraya 2025",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "6",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://meticmerch.org/",
+        title: "PhotoBooth Antareja 2024",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "meticmerch",
+        id: "7",
+        image: "/assets/image/foto-bareng-triangle.png",
+        link: "https://meticmerch.org/",
+        title: "PhotoBooth DiesNatalis 2024",
+      },
+    ],
+    team: [
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Arsyad Ali Mahardika",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Lanang Tegar Cahyo",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Hafidz Agil Abiyasa",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Rizqi Ramadhan",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Nayla Chandra",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Nadhifatul Azmi",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Agnes Shifa R",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Nayla Larasati",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Bilqis Nur Fadhila Ismoyo",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Fattan Arifudin",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Dionesia Alfiansyah",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Nella Salsabila",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Keefa Syawal",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Earlene Zabrina J",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Moh Abdul Azis",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Danish Satria Indie",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "M Syamil Muwahhid",
+        role: "Metizen 32"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Aurel Dwi Bintari",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Abravia Mouzahra R",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Dentha Dewangga P",
+        role: "Metizen 33"
+      },
+      {
+        image: "/assets/image/33-bara.png",
+        name: "Adhiana Alika Apriantina",
+        role: "Metizen 33"
+      },
+    ],
   },
 ];

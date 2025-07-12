@@ -22,7 +22,7 @@ export default function DivisionSection() {
             banget.
           </p>
         </div>
-        <div className="mt-[38px] flex justify-center gap-[87px] px-[124.5px] mx-auto items-center">
+        <div className="mt-[38px] max-sm:flex-col flex justify-center gap-[87px] px-[124.5px] mx-auto items-center">
           {divisi.map((d, i) => (
             <div
               key={i}

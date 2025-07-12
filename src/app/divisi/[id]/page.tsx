@@ -14,7 +14,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function DivisionPage({ params: { id } }: Params) {
+export default async function DivisionPage({ params }: Params) {
+  const { id } = params;
   const division = divisi.find((d) => d.id === id);
   if (!division) {
     return <div>Division not found</div>;
@@ -22,7 +23,7 @@ export default function DivisionPage({ params: { id } }: Params) {
   return (
     <>
       <Header data={division} />
-      <ProgramKerjaHead prokja={division.prokja} />
+      <ProgramKerjaHead name={division.name} prokja={division.prokja} />
       <Portofolio divisi={division}/>
       <Team divisi={division}/>
     </>

@@ -2,10 +2,11 @@ import { DivisiProps } from "@/app/_components/const/datas";
 import Image from "next/image";
 
 interface ProgramKerjaHeadProps {
+  name: string;
   prokja?: DivisiProps["prokja"];
 }
 
-export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
+export default function ProgramKerjaHead({ prokja, name }: ProgramKerjaHeadProps) {
   // Position configurations for different numbers of items
   const getPositionClasses = (index: number, total: number) => {
     if (total === 1) {
@@ -30,9 +31,9 @@ export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
     if (total === 4) {
       const positions = [
         "top-[100px] right-[150px]",
-        "top-[250px] left-[80px]",
+        "top-[400px] left-[80px]",
         "top-[400px] right-[120px]",
-        "top-[200px] left-[300px]",
+        "top-[100px] left-[140px]",
       ];
       return positions[index];
     }
@@ -42,8 +43,8 @@ export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
       "top-[80px] left-[120px]", // Top left
       "top-[100px] right-[150px]", // Top right
       "top-[320px] left-[80px]", // Middle left
-      "top-[280px] right-[120px]", // Middle right
-      "top-[480px] right-[200px]", // Bottom right
+      "top-[310px] right-[120px]", // Middle right
+      "top-[520px] right-[200px]", // Bottom right
     ];
 
     // For more than 5 items, cycle through positions or add new ones
@@ -62,7 +63,7 @@ export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
 
   return (
     <>
-      <div className="relative bg-secondary w-full mt-71 min-h-[700px]">
+      <div className="relative bg-secondary w-full mt-71 max-sm:mt-41 min-h-[700px]">
         <div className="absolute -top-[15px] left-0 w-full overflow-hidden leading-none">
           <svg
             width="1440"
@@ -90,11 +91,11 @@ export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
           </svg>
         </div>
 
-        <div className="pt-30 relative">
+        <div className="pt-30 relative ">
           {/* Text boxes positioned around the character */}
           {prokja?.map((item, index) => (
             <div
-              className={`absolute z-[222] ${getPositionClasses(
+              className={`min-xl:absolute z-[222] max-sm:px-15 max-sm:mt-3 ${getPositionClasses(
                 index,
                 prokja.length
               )}`}
@@ -130,7 +131,7 @@ export default function ProgramKerjaHead({ prokja }: ProgramKerjaHeadProps) {
         </div>
 
         <h1 className="mt-[25px] pb-[43px] text-center text-white text-[49px] font-[700] drop-shadow-[0_6px_9px_rgba(0,0,0,0.25)]">
-          Program Kerja Sobat METIC Dev !
+          Program Kerja Sobat {name} !
         </h1>
       </div>
     </>

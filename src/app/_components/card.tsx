@@ -36,7 +36,7 @@ export const CardTeam: React.FC<{
           className="object-cover w-full h-full"
         />
       </div>
-      <div>
+      <div className="text-left">
         <h3 className="text-base font-semibold text-[#A10000]">{data.name}</h3>
         <p className="text-sm text-[#A10000] opacity-70">{data.role}</p>
       </div>
@@ -55,7 +55,7 @@ interface PortfolioProps {
 
 export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
   return (
-    <div className="relative bg-white rounded-2xl shadow-md overflow-hidden max-w-md">
+    <div className="relative bg-white rounded-2xl shadow-lg overflow-hidden max-w-md">
       {/* Image with Caption Overlay */}
       <div className="relative aspect-[4/3] overflow-hidden">
         <Image
@@ -68,8 +68,8 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
 
       {/* Content */}
       <div className="px-6 pt-4 pb-6">
-        <div className="flex justify-between p-2">
-          <h3 className="text-[18px] text-[#A2181C] font-semibold mb-3 leading-snug">
+        <div className="flex justify-between items-center mb-3 gap-2 py-2 break-words">
+          <h3 className="text-[18px] text-[#A2181C] w-[70%] font-semibold  leading-snug">
             {portfolio.title}
           </h3>
           <p className=" text-sm text-gray-400 z-10">{portfolio.date}</p>
@@ -78,7 +78,7 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
         {/* Instagram Info + Button */}
         <div className="flex items-center justify-between">
           {/* Instagram Section */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <div className="w-6 h-6 rounded-md overflow-hidden">
               <Image
                 src="/assets/image/ig-logo.png"
@@ -95,7 +95,7 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
           {/* Explore Button */}
           <Link
             href={portfolio.link}
-            className="bg-[#A2181C] hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 flex items-center gap-2">
+            className="bg-[#A2181C] hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ml-3 flex items-center gap-2">
             Explore more
             <svg
               className="w-4 h-4"

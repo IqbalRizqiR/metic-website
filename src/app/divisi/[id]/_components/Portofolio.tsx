@@ -12,9 +12,10 @@ export default function Portofolio({ divisi }: { divisi: DivisiProps }) {
             alt="kardus"
             width={49}
             height={54}
+            className="max-sm:hidden min-xl:block"
           />
           <h1 className="">
-            <span className="text-primary font-[700] text-[49px]">
+            <span className="text-primary font-[700] max-sm:text-[21px] min-xl:text-[49px]">
               Yuk intip intip portofolio kita!
             </span>
           </h1>
@@ -23,13 +24,14 @@ export default function Portofolio({ divisi }: { divisi: DivisiProps }) {
             alt="kardus"
             width={49}
             height={54}
+            className="max-sm:hidden min-xl:block"
           />
         </div>
         <div className="overflow-x-auto bg-white custom-scrollbar px-10 mt-6 sm:mt-8">
             <div className="flex justify-start w-full">
               <div className="flex gap-x-10 sm:gap-x-5 w-max">
                 {Array.from({
-                  length: Math.ceil(divisi.portfolio.length / 2),
+                  length: Math.ceil(divisi.portfolio.length),
                 }).map((_, colIndex) => (
                   <div
                     key={colIndex}

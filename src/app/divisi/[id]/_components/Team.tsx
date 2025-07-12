@@ -49,6 +49,12 @@ export default function Team({ divisi }: { divisi: DivisiProps }) {
             </div>
           </div>
         </div>
+        <div className="pt-[300px] px-20">
+          <div className="flex justify-between">
+            <p className="font-[400] text-[12px] text-white">Copyright &copy;</p>
+            <p className="font-[400] text-[12px] text-white">Powered by <span className="font-[600]">Metic</span></p>
+          </div>
+        </div>
       </div>
     </>
   );
