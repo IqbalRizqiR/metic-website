@@ -7,11 +7,11 @@ export default function DivisionSection() {
   return (
     <>
       <div className="bg-white w-full mt-16 pb-10" id="divisi">
-        <div className="text-center">
+        <div className="text-center px-3">
           <h4 className="text-[15px] font-[500] text-[#B8B8B8]">
             Our Division
           </h4>
-          <h4 className="text-[#333333] mt-[-10px] font-[700] text-[45px]">
+          <h4 className="text-[#333333] mt-[-10px] font-[700] text-[35px]">
             Meet Our Division
           </h4>
           <p className="text-[15px] mt-[25px] font-[400] text-black leading-[21px]">
