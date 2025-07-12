@@ -74,8 +74,14 @@ const TrackRecord: React.FC<{ datas: TrackRecordProps[] }> = ({ datas }) => {
         </h4>
         <h1 className="font-[700] text-[45px] text-white">Track Record</h1>
       </div>
-      <div className="flex items-center w-full mt-[30px] pb-[30px]">
-        <div className="relative shrink-0 w-[60%] overflow-x-hidden rounded-[18px]">
+      <div className="flex items-center max-sm:flex-col w-full mt-[30px] pb-[30px]">
+        <div className="max-sm:block min-xl:hidden w-full text-center">
+          <h4 className="text-[15px] text-white/61 font-[500]">
+            Event & Achievements
+          </h4>
+          <h1 className="text-white font-[700] text-[45px]">Our Event</h1>
+        </div>
+        <div className="relative shrink-0 min-xl:w-[60%] max-sm:w-full overflow-x-hidden max-sm:px-3.5 max-sm:py-7 rounded-[18px]">
           <div
             className="flex flex-row-reverse gap-[43px] transition-transform duration-300"
             style={{
@@ -91,42 +97,48 @@ const TrackRecord: React.FC<{ datas: TrackRecordProps[] }> = ({ datas }) => {
           </div>
         </div>
         <div className="w-150 h-127 absolute right-0 mt-[-90px] rotate-[2.17deg] bg-[radial-gradient(ellipse_39.33%_39.33%_at_49.95%_56.31%,_rgba(255,_255,_255,_0.20)_12%,_rgba(255,_255,_255,_0)_100%)]"></div>
-        <div className="w-[40%] mt-[-150px] text-center">
+        <div className="max-sm:hidden min-xl:block w-[40%] mt-[-150px] text-center">
           <h4 className="text-[15px] text-white/61 font-[500]">
             Event & Achievements
           </h4>
           <h1 className="text-white font-[700] text-[45px]">Our Event</h1>
         </div>
       </div>
-      <div className="flex items-center w-full mt-[70px] pb-[30px]">
+      <div className="flex max-sm:flex-col items-center w-full mt-[70px] pb-[30px]">
         <Image
           src="/assets/image/meca-international.png"
           alt="Arrow Down"
           width={490}
           height={390}
-          className="absolute mt-[-58px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-0 z-[1]"
+          className="max-sm:hidden min-xl:absolute mt-[-58px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-0 z-[1]"
         />
         <Image
           src="/assets/image/icon-piala.png"
           alt="Arrow Down"
           width={110}
           height={110}
-          className="absolute mt-[-420px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-[360px] z-[1]"
+          className="max-sm:hidden min-xl:absolute mt-[-420px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-[360px] z-[1]"
         />
         <Image
           src="/assets/image/icon-global.png"
           alt="Arrow Down"
           width={87}
           height={87}
-          className="absolute mt-[88.5px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-[401px] z-[1]"
+          className="max-sm:hidden min-xl:absolute mt-[88.5px] drop-shadow-[0_3px_90px_rgba(255,255,255,0.73)] left-[401px] z-[1]"
         />
-        <div className="absolute left-[364px] mt-[-90px] z-[222]">
+        <div className="max-sm:hidden min-xl:absolute left-[364px] mt-[-90px] z-[222]">
           <div className="w-[245px] h-[54px] px-[28px] py-[15px] bg-[#ffffff] border-[1px] border-[E04E4E] font-[600] text-secondary-text text-[15px] text-center rounded-[12px_12px_0px_12px]">
             Metic Go Internasional?
           </div>
         </div>
         <div className="min-w-[50%]"></div>
-        <div className="relative rounded-[18px] gap-[43px] shrink-0 w-[50%] overflow-x-hidden">
+        <div className="max-sm:block min-xl:hidden w-full text-center">
+          <h4 className="text-[15px] text-white/61 font-[500]">
+            Event & Achievements
+          </h4>
+          <h1 className="text-white font-[700] text-[45px]">Metic Go International!</h1>
+        </div>
+        <div className="relative max-sm:w-full max-sm:px-3.5 max-sm:py-7 rounded-[18px] gap-[43px] shrink-0 w-[50%] overflow-x-hidden">
           <div
             className="flex gap-[43px] transition-transform duration-300"
             style={{

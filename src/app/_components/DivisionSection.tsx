@@ -1,6 +1,7 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import { divisi } from "./const/datas";
 
 export default function DivisionSection() {
   return (
@@ -14,30 +15,46 @@ export default function DivisionSection() {
             Meet Our Division
           </h4>
           <p className="text-[15px] mt-[25px] font-[400] text-black leading-[21px]">
-            METIC punya tiga divisi utama: Moklet Dev, Metic Merch, dan MediaCom—semuanya bergerak aktif bikin karya nyata dan <br /> impact di sekolah maupun luar. Di METIC, kamu bisa belajar, bikin proyek, kolaborasi tim, sampai dapet pengalaman <br /> profesional yang real banget.
+            METIC punya tiga divisi utama: Moklet Dev, Metic Merch, dan
+            MediaCom—semuanya bergerak aktif bikin karya nyata dan <br /> impact
+            di sekolah maupun luar. Di METIC, kamu bisa belajar, bikin proyek,
+            kolaborasi tim, sampai dapet pengalaman <br /> profesional yang real
+            banget.
           </p>
         </div>
-        <div className="mt-[38px] flex justify-center gap-[87px] px-[124.5px] mx-auto items-center">
-          <div className="flex drop-shadow-[1px_2px_8px_rgba(0,0,0,0.25)] bg-white flex-col items-center justify-center w-[339px] h-[496px] rounded-[26.42px] py-[39px] px-[46px] gap-[18px]">
-            <div className="block w-[247px] h-[247px] bg-primary rounded-full">
-              <Image
-                src="/assets/image/logo-mokletdev.png"
-                alt="Moklet Dev"
-                width={93}
-                height={119}
-                className="mx-auto py-15"
-              />
+        <div className="mt-[38px] max-sm:flex-col flex justify-center gap-[87px] px-[124.5px] mx-auto items-center">
+          {divisi.map((d, i) => (
+            <div
+              key={i}
+              className="flex drop-shadow-[1px_2px_8px_rgba(0,0,0,0.25)] bg-white flex-col items-center justify-center w-[339px] h-[496px] rounded-[26.42px] py-[39px] px-[46px] gap-[18px]">
+              <div className="block w-[247px] h-[247px] bg-primary rounded-full">
+                <div className="flex w-full h-full justify-center items-center">
+                  <Image
+                    src={`${d.image}`}
+                    alt={`${d.name}`}
+                    width={93}
+                    height={119}
+                    className="object-contain object-center"
+                  />
+                </div>
+              </div>
+              <div className="text-center w-[292px]">
+                <h1 className="text-[22.5px] font-[700] text-[#333333]">
+                  {d.name}
+                </h1>
+                <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">
+                  {d.preview}
+                </p>
+                <a
+                  href={`/divisi/${d.id}`}
+                  className="block mt-[10px] mx-auto py-[9px] w-[172px] text-center h-[39px] rounded-[20px] bg-primary text-white font-[500] text-[12px] ">
+                  Read More
+                  <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+                </a>
+              </div>
             </div>
-            <div className="text-center w-[292px]">
-              <h1 className="text-[22.5px] font-[700] text-[#333333]">MokletDev</h1>
-              <p className="font-[400] mt-[1px] text-[15px] text-[#515050]">Divisi yang fokus pada <br /> pengembangan teknologi dan <br /> sebagai pusat inovasi.</p>
-              <a href="" className="block mt-[10px] mx-auto py-[9px] w-[172px] text-center h-[39px] rounded-[20px] bg-primary text-white font-[500] text-[12px] ">
-                Read More
-                <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
-              </a>
-            </div>
-          </div>
-          <div className="flex drop-shadow-[1px_2px_8px_rgba(0,0,0,0.25)] bg-white flex-col items-center justify-center w-[339px] h-[496px] rounded-[26.42px] py-[39px] px-[46px] gap-[18px]">
+          ))}
+          {/* <div className="flex drop-shadow-[1px_2px_8px_rgba(0,0,0,0.25)] bg-white flex-col items-center justify-center w-[339px] h-[496px] rounded-[26.42px] py-[39px] px-[46px] gap-[18px]">
             <div className="block w-[247px] h-[247px] bg-primary rounded-full">
               <Image
                 src="/assets/image/logo-medcom.png"
@@ -74,7 +91,7 @@ export default function DivisionSection() {
                 <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

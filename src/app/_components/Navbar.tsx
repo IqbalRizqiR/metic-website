@@ -75,9 +75,9 @@ export default function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="sm:hidden xl:flex gap-[9px] ml-[129px] mt-[6px]">
-          <Link href={"/"} className="xl:mt-[36px] ">
-            <div className="block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
+        <div className="hidden min-xl:flex gap-[9px] min-xl:ml-[129px] mt-[6px]">
+          <Link href={"/"} className="min-xl:mt-[36px] ">
+            <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
               <Image
                 src={"/assets/image/tiktok-vector.png"}
                 alt="TikTok Logo"
@@ -88,7 +88,7 @@ export default function Navbar() {
             </div>
           </Link>
           <Link href={"/"} className="xl:mt-[36px] ">
-            <div className="block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
+            <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
               {/* <Image
                 src={"/assets/image/-vector.png"}
                 alt="TikTok Logo"
@@ -99,7 +99,7 @@ export default function Navbar() {
             </div>
           </Link>
           <Link href={"/"} className="xl:mt-[36px] ">
-            <div className="block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
+            <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
               <Image
                 src={"/assets/image/ig-vector.png"}
                 alt="TikTok Logo"
