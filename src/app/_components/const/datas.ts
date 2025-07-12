@@ -367,7 +367,7 @@ export const divisi: DivisiProps[] = [
       },
       {
         "name": "Iqbal Rizqi Ramadhan",
-        "role": "Metizen 32",
+        "role": "Metizen 33",
         "image": "/assets/image/Metizen 33/Iqbal Rizqi Ramadhan.jpg"
       },
       {
