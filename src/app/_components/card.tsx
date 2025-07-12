@@ -55,9 +55,9 @@ interface PortfolioProps {
 
 export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
   return (
-    <div className="relative bg-white rounded-2xl shadow-lg overflow-hidden max-w-md">
+    <div className="relative bg-white rounded-2xl shadow-lg overflow-hidden max-w-md h-[450px] flex flex-col my-5">
       {/* Image with Caption Overlay */}
-      <div className="relative aspect-[4/3] overflow-hidden">
+      <div className="relative h-[55%] w-full overflow-hidden">
         <Image
           src={portfolio.image}
           alt={portfolio.title}
@@ -67,17 +67,18 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
       </div>
 
       {/* Content */}
-      <div className="px-6 pt-4 pb-6">
-        <div className="flex justify-between items-center mb-3 gap-2 py-2 break-words">
-          <h3 className="text-[18px] text-[#A2181C] w-[70%] font-semibold  leading-snug">
-            {portfolio.title}
-          </h3>
-          <p className=" text-sm text-gray-400 z-10">{portfolio.date}</p>
+      <div className="px-6 pt-4 pb-6 flex-1 flex flex-col justify-between">
+        <div className="mb-3">
+          <div className="flex justify-between items-center gap-2 py-2 break-words">
+            <h3 className="text-[18px] text-[#A2181C] w-[70%] font-semibold leading-snug">
+              {portfolio.title}
+            </h3>
+            <p className="text-sm text-gray-400 z-10">{portfolio.date}</p>
+          </div>
         </div>
 
         {/* Instagram Info + Button */}
         <div className="flex items-center justify-between">
-          {/* Instagram Section */}
           <div className="flex items-center gap-1">
             <div className="w-6 h-6 rounded-md overflow-hidden">
               <Image
@@ -92,7 +93,6 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
             </span>
           </div>
 
-          {/* Explore Button */}
           <Link
             href={portfolio.link}
             className="bg-[#A2181C] hover:bg-red-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ml-3 flex items-center gap-2">

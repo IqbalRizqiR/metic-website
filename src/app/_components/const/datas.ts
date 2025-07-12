@@ -208,31 +208,23 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "mokletdev",
         id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/Mokletorg.png",
         link: "https://moklet.org/",
         title: "Website Moklet.org",
       },
       {
         date: "01/01/2025",
         sosmed: "mokletdev",
-        id: "2",
-        image: "/assets/image/foto-bareng-triangle.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Website Digifest",
-      },
-      {
-        date: "01/01/2025",
-        sosmed: "mokletdev",
         id: "3",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Telkomsociety.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Website E-Pilketos",
+        title: "Website Telkom Society",
       },
       {
         date: "01/01/2025",
         sosmed: "mokletdev",
         id: "4",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portfolio/MITFest.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "Website Moklet IT Fest",
       },
@@ -241,107 +233,107 @@ export const divisi: DivisiProps[] = [
       {
         "name": "Naufal Nabil Ramadhan",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Naufal Nabil Ramadhan.jpg"
       },
       {
         "name": "Abhinaya Dwi Putra M",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Abhinaya Dwi Putra.jpg"
       },
       {
         "name": "Haza Nasrullah K.",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Haza Nasrullah.jpg"
       },
       {
         "name": "Vincent Clause Junior ",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Vincent Clause Junior.jpg"
       },
       {
         "name": "Aaron Zanett Samudra",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Aaron Zanett Samudra.jpg"
       },
       {
         "name": "M. Raka Aqil Ghifari ",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Raka Aqil Ghifari.jpg"
       },
       {
         "name": "Fahrell Sandy Zhariif W",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Fahrell sandy Zhariif.jpg"
       },
       {
         "name": "Sayoga Sindhunata N",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Sayoga Shindhunata.jpg"
       },
       {
         "name": "M. Zuhair Zuhdi",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Zuhair Zuhdi.jpg"
       },
       {
         "name": "Shabri Sebastian S",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Shabri Sebastiian.jpg"
       },
       {
         "name": "Ryo Hariyono Angwyn",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Ryo Hariyono Angwyn.jpg"
       },
       {
         "name": "Queen Nur Hafizah",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Queen Nur Hafizah.jpg"
       },
       {
         "name": "Rakha Adrian Nur Tanaya",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Rakha Adrian Nur Tanaya.jpg"
       },
       {
         "name": "Syamraya Ibrahim A",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33"
       },
       {
         "name": "M Faiz Annabil",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32"
       },
       {
         "name": "Violetta Emerald W",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Violetta Emerald.jpg"
       },
       {
         "name": "M Rezky Eksatama",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Rezky Eksatama.jpg"
       },
       {
         "name": "M Kevin Arif Rudianto ",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33"
       },
       {
         "name": "Yahya Az-Zyahabby R",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Yahya Az Zyahabby.jpg"
       },
       {
         "name": "Maulana Alfara S. ",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Maulana Alfara.jpg"
       },
       {
         "name": "Fadlurrahman Yusuf Al F",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Fadlurrahman Yusuf.jpg"
       },
       {
         "name": "Jean Richnerd R",
@@ -351,77 +343,77 @@ export const divisi: DivisiProps[] = [
       {
         "name": "Yohanes Capelliou S",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Yohanes Capelliuou.jpg"
       },
       {
         "name": "Esya Zachreva A",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33"
       },
       {
         "name": "Shofiyulloh Kamil",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Shofiyulloh Kamil.jpg"
       },
       {
         "name": "Fakhriza Althaf F",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Fakhriza Althaf.jpg"
       },
       {
         "name": "M Keefa Syawal",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Keefa Syawal.jpg"
       },
       {
         "name": "Iqbal Rizqi Ramadhan",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Iqbal Rizqi Ramadhan.jpg"
       },
       {
         "name": "Tisha Ivana",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32"
       },
       {
         "name": "Achmad Rafi Akmal ",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33"
       },
       {
         "name": "Moh Abdul Azis",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg"
       },
       {
         "name": "Rahadyan Alfarisi",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33"
       },
       {
         "name": "⁠M Dionesia Alfiansyah ",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Dionesia Alfiansyah.jpg"
       },
       {
         "name": "Akira Saskara H",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Akira Saskara.jpg"
       },
       {
         "name": "Moh Abdul Azis",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg"
       },
       {
         "name": "Fathir Tegar N",
         "role": "Metizen 33",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/Metizen 33/Fathir Tegar.jpg"
       },
       {
         "name": "Arsyad Ali Mahardika ",
         "role": "Metizen 32",
-        "image": "/assets/image/33-bara.png"
+        "image": "/assets/image/ Metizen 32/Arsyad Ali Mahardika.jpg"
       },
       
       
@@ -455,7 +447,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "medcom",
         id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/Streaming SHine.jpg",
         link: "https://medcom.org/",
         title: "Streaming Shine Angkatan 31",
       },
@@ -463,7 +455,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "medcom",
         id: "2",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "Review Website MokletDev",
       },
@@ -471,169 +463,169 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "medcom",
         id: "3",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "Editing MeTor",
       },
     ],
     team: [
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Radika Afwa Bimalaksa.jpg",
         name: "M. Radika Afwa Bimalaksa",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Keyza  Alvaro Faiq.jpg",
         name: "Keyza Alvaro Faiq",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Fathimah Aqila Zarrah.jpg",
         name: "Fathimah Aqilah Zarrah",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Rabbani Aryanta.jpg",
         name: "M. Rabbani Aryanta",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Dionesia Alfiansyah.jpg",
         name: "⁠M. Dionesia Alfiansyah ",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Pradipta Daniswara.jpg",
         name: "Pradipta Daniswara",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Zalmaladzi el Shirazzi.jpg",
         name: "M. Zalmaladzi El-Shirazzi ",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Loi Lieant.jpg",
         name: "Loi Lieant Ratri Leony",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Arsyad Dhiyaul Haq.jpg",
         name: "Arsyad Dhiyaul Haq",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Maulana Rizky Ferdinan.jpg",
         name: "M Rizky Ferdinand",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Aloysius Nathanael Purba.jpg",
         name: "Aloysius Nathanael Purba ",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Feodora Ester.jpg",
         name: "Feodora Ester",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Rizq Syafriano Valeant.jpg",
         name: "Rizq Syafriano Valeant",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Fayola Khanza.jpg",
         name: "Fayola Khanza L",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Danish Shafiqa L noerdars.jpg",
         name: "Danish Shafiqa L Noerdars",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Habibi Mahatma.jpg",
         name: "Habibi Mahatma S",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Azzura Ulfiatufathin.jpg",
         name: "⁠Azzura Ulfiatufathin M",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Indira Savida.jpg",
         name: "Indira Savida S",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Raya Putra Ashiddiqi.jpg",
         name: "⁠M Raya Putra Ashiddiqi ",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33",
         name: "Abdur Rasyid H",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32",
         name: "Leon Adam Royyan ",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Latifa Irsyadiyah.jpg",
         name: "Latifa Irsyadiyah",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Agil Abiyasa.jpg",
         name: "Hafidz Agil Abiyasa",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Ahmad Zaki.jpg",
         name: "Ahmad Zaki",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Keefa Syawal.jpg",
         name: "M Keefa Syawal",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Muhammad Zulkarnaen.jpg",
         name: "Muhammad Zulkarnaen",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg",
         name: "Moh Abdul Aziz",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Dzaky Azzam.jpg",
         name: "M Dzaky Azzam",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33",
         name: "Muhamad Arifdiansyah",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/alfareza Hans Purnomo.jpg",
         name: "M Alfareza Hans P",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33",
         name: "Kinan Shafin Ibrahim",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Fadi Alyuliansyah.jpg",
         name: "Fadi Alyuliansyah",
         role: "Metizen 33"
       },
@@ -674,7 +666,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "1",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB Shine.gif",
         link: "https://meticmerch.org/",
         title: "Photobooth Shine Angkatan 31",
       },
@@ -682,7 +674,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "2",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB MGIP.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "Photobooth MGIP 2025",
       },
@@ -690,7 +682,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "3",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB Edufest.png",
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "PhotoBooth EduFest 2025",
       },
@@ -698,7 +690,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "4",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB Elqif.png",
         link: "https://meticmerch.org/",
         title: "PhotoBooth Elqif 2025",
       },
@@ -706,7 +698,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "5",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio",
         link: "https://meticmerch.org/",
         title: "PhotoBooth Saraya 2025",
       },
@@ -714,7 +706,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "6",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB Antareja.png",
         link: "https://meticmerch.org/",
         title: "PhotoBooth Antareja 2024",
       },
@@ -722,114 +714,114 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "meticmerch",
         id: "7",
-        image: "/assets/image/foto-bareng-triangle.png",
+        image: "/assets/image/Portofolio/PB Diesnat.png",
         link: "https://meticmerch.org/",
         title: "PhotoBooth DiesNatalis 2024",
       },
     ],
     team: [
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Arsyad Ali Mahardika.jpg",
         name: "Arsyad Ali Mahardika",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Lanang Tegar Cahyo.jpg",
         name: "Lanang Tegar Cahyo",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Agil Abiyasa.jpg",
         name: "Hafidz Agil Abiyasa",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Rizqi Ramadhan.jpg",
         name: "Rizqi Ramadhan",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Nayla Chandra.jpg",
         name: "Nayla Chandra",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Nadhifatul Azmi.jpg",
         name: "Nadhifatul Azmi",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Agnes Shifa.jpg",
         name: "Agnes Shifa R",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Nayla Larasati.jpg",
         name: "Nayla Larasati",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Bilqis Nur Fadhila.jpg",
         name: "Bilqis Nur Fadhila Ismoyo",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Fattan Arifudin.jpg",
         name: "Fattan Arifudin",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Dionesia Alfiansyah.jpg",
         name: "M Dionesia Alfiansyah",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Nella Salsabila.jpg",
         name: "Nella Salsabila",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Keefa Syawal.jpg",
         name: "M Keefa Syawal",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Earlene Zabrina.jpg",
         name: "Earlene Zabrina J",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg",
         name: "Moh Abdul Azis",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Danish Satria Indie.jpg",
         name: "Danish Satria Indie",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/ Metizen 32/Syamil Muwahhid.jpg",
         name: "M Syamil Muwahhid",
         role: "Metizen 32"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Aurel Dwi Bintari.jpg",
         name: "Aurel Dwi Bintari",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Abravia Mouzahra.jpg",
         name: "Abravia Mouzahra R",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33/Dentha Dewangga.jpg",
         name: "Dentha Dewangga P",
         role: "Metizen 33"
       },
       {
-        image: "/assets/image/33-bara.png",
+        image: "/assets/image/Metizen 33",
         name: "Adhiana Alika Apriantina",
         role: "Metizen 33"
       },
