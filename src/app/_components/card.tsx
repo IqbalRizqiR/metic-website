@@ -119,16 +119,10 @@ export function PortfolioCard({ portfolio }: { portfolio: PortfolioProps }) {
 export interface FAQCardProps {
   profileImg: string;
   question: string;
-  responseTitle: string;
-  responseContent: string;
+  response: string[];
 }
 
-export function FAQCard({
-  profileImg,
-  question,
-  responseTitle,
-  responseContent,
-}: FAQCardProps) {
+export function FAQCard({ profileImg, question, response }: FAQCardProps) {
   return (
     <div className="flex flex-col items-end gap-3 max-w-xl mx-auto">
       {/* Question bubble */}
@@ -154,12 +148,16 @@ export function FAQCard({
           height={40}
           className="rounded-md"
         />
-        <div className="bg-white rounded-xl p-4 shadow-md">
-          <p className="font-semibold mb-2">{responseTitle}</p>
-          <p
-            className="text-sm text-gray-700"
-            dangerouslySetInnerHTML={{ __html: responseContent }}
-          />
+        <div className="flex flex-col gap-y-2">
+
+        {response.map((item, index) => (
+          <div key={index} className="bg-white rounded-xl p-4 shadow-md">
+            <p
+              className="text-sm text-gray-700"
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
+          </div>
+        ))}
         </div>
       </div>
     </div>
