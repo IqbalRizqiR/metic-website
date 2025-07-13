@@ -16,10 +16,10 @@ interface NavOption {
 
 const navOptions: NavOption[] = [
   { title: "METIC", href: "/" },
-  { title: "Our Division", href: "#divisi" },
-  { title: "Track Record", href: "#track" },
-  { title: "Our Member", href: "#leaders" },
-  { title: "Benefit", href: "#benefit" },
+  { title: "Our Division", href: "/#divisi" },
+  { title: "Track Record", href: "/#track" },
+  { title: "Our Member", href: "/#leaders" },
+  { title: "Benefit", href: "/#benefit" },
 ];
 
 export default function Navbar() {
@@ -46,7 +46,9 @@ export default function Navbar() {
         </Link>
         <div
           className={cn(
-            `fixed hidden left-1/2 top-[24.5px] xl:flex xl:items-center justify-between w-full transition-all duration-300 ${scrolled ? "max-w-[826px]" : "max-w-[602px]"} -translate-x-1/2 rounded-full border border-neutral-300 bg-white px-[50px] py-3 drop-shadow-[0_3px_11px_rgba(0,0,0,0.25)]`,
+            `fixed hidden left-1/2 top-[24.5px] xl:flex xl:items-center justify-between w-full transition-all duration-300 ${
+              scrolled ? "max-w-[826px]" : "max-w-[602px]"
+            } -translate-x-1/2 rounded-full border border-neutral-300 bg-white px-[50px] py-3 drop-shadow-[0_3px_11px_rgba(0,0,0,0.25)]`
           )}
         >
           {scrolled && (
@@ -55,9 +57,11 @@ export default function Navbar() {
                 src={"/assets/image/logo.png"}
                 alt="Moklet Organization: SMK Telkom Malang"
                 width={120}
-                height={40}
+                height={50}
                 className={cn(
-                  `pointer-events-none h-[40px] transition-all duration-300 ${scrolled ? "w-[120px]" : "w-0"}`,
+                  `pointer-events-none h-[40px] object-contain transition-all duration-300 ${
+                    scrolled ? "w-[120px]" : "w-0"
+                  }`
                 )}
               />
             </Link>
@@ -68,7 +72,7 @@ export default function Navbar() {
               href={navOption.href}
               // Splitted "/a/b" will form an array: ["", "a", "b"], that's why we use the second index as comparation
               className={cn(
-                `rounded-full py-2 text-center transition-all duration-300 text-primary`,
+                `rounded-full py-2 text-center transition-all duration-300 text-primary`
               )}
             >
               {navOption.title}
@@ -76,36 +80,36 @@ export default function Navbar() {
           ))}
         </div>
         <div className="hidden min-xl:flex gap-[9px] min-xl:ml-[129px] mt-[6px]">
-          <Link href={"/"} className="min-xl:mt-[36px] ">
+          <Link href={"/registration"} className="min-xl:mt-[36px]">
+            <div className="hidden xl:block px-4 py-2 rounded-full bg-primary text-white hover:bg-primary/90 transition-colors">
+              <h1 className="text-sm font-medium">Join Now!</h1>
+            </div>
+          </Link>
+          <Link
+            href={"https://www.tiktok.com/@meticmerangkulsemuaorang"}
+            className="min-xl:mt-[36px] "
+          >
             <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
               <Image
                 src={"/assets/image/tiktok-vector.png"}
                 alt="TikTok Logo"
                 width={16}
                 height={18}
-                className="mx-auto py-1.5"  
+                className="mx-auto py-1.5"
               />
             </div>
           </Link>
-          <Link href={"/"} className="xl:mt-[36px] ">
-            <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
-              {/* <Image
-                src={"/assets/image/-vector.png"}
-                alt="TikTok Logo"
-                width={16}
-                height={18}
-                className="mx-auto py-1.5"  
-              /> */}
-            </div>
-          </Link>
-          <Link href={"/"} className="xl:mt-[36px] ">
+          <Link
+            href={"https://www.instagram.com/meticmoklet/"}
+            className="xl:mt-[36px] "
+          >
             <div className="hidden xl:block w-[33px] h-[33px] rounded-full bg-primary text-transparent pointer-events-none select-none">
               <Image
                 src={"/assets/image/ig-vector.png"}
                 alt="TikTok Logo"
                 width={17}
                 height={17}
-                className="mx-auto py-2"  
+                className="mx-auto py-2"
               />
             </div>
           </Link>
@@ -119,7 +123,9 @@ export default function Navbar() {
       </div>
       <div
         className={cn(
-          `block xl:hidden h-[300px] w-full z-[800] bg-white transition-all duration-500 ${isExpanded ? "mt-0" : " -mt-120"}`,
+          `block xl:hidden h-[300px] w-full z-[800] bg-white transition-all duration-500 ${
+            isExpanded ? "mt-0" : " -mt-120"
+          }`
         )}
       >
         <div className="flex flex-col gap-8 text-start justify-start items-start my-[21px] ms-[20px] lg:ms-[52px]">
@@ -129,7 +135,11 @@ export default function Navbar() {
               href={navOption.href}
               // Splitted "/a/b" will form an array: ["", "a", "b"], that's why we use the second index as comparation
               className={cn(
-                `rounded-full text-center text-[16px] transition-all duration-300 hover:text-primary-400 ${pathname.split("/")[1] === navOption.href.split("/")[1] ? "text-red-400" : ""}`,
+                `rounded-full text-center text-[16px] transition-all duration-300 hover:text-primary-400 ${
+                  pathname.split("/")[1] === navOption.href.split("/")[1]
+                    ? "text-red-400"
+                    : ""
+                }`
               )}
               onClick={() => setIsExpanded(false)}
             >
@@ -138,7 +148,6 @@ export default function Navbar() {
           ))}
         </div>
       </div>
-
     </nav>
   );
 }
