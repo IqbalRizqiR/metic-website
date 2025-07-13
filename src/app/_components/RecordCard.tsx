@@ -14,7 +14,7 @@ const RecordCard: React.FC<{data: TrackRecordProps}> = ({ data }) => {
                 alt={data.title}
                 width={339}
                 height={182}
-                className="w-[339px] h-[182px] rounded-[20px]"
+                className="w-[339px] object-contain h-[182px] rounded-[20px]"
             />
             <div className="">
                 <div className="w-[113px] h-[32px] bg-secondary-bg text-primary rounded-[13px] text-center text-[12px] font-[500] mt-[15px] py-2">
