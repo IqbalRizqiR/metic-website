@@ -304,22 +304,6 @@ export const divisi: DivisiProps[] = [
     ],
     portfolio: [
       {
-        date: "01/01/2025",
-        sosmed: "mokletdev",
-        id: "1",
-        image: "/assets/image/Portofolio/Notulenize.jpg",
-        link: "https://notulenize.moklet.org",
-        title: "Notulenize",
-      },
-      {
-        date: "01/01/2025",
-        sosmed: "mokletdev",
-        id: "1",
-        image: "/assets/image/Portofolio/Gestura.jpg",
-        link: "https://gesture.moklet.org/",
-        title: "Gestura",
-      },
-      {
         date: "07/07/2024",
         sosmed: "mokletdev",
         id: "1",
@@ -330,7 +314,7 @@ export const divisi: DivisiProps[] = [
       {
         date: "06/04/2024",
         sosmed: "mokletdev",
-        id: "1",
+        id: "2",
         image: "/assets/image/Portofolio/Mokletorg.png",
         link: "https://moklet.org/",
         title: "Website Moklet.org",
@@ -390,6 +374,22 @@ export const divisi: DivisiProps[] = [
         image: "/assets/image/Portofolio/pilketos.png",
         link: "https://e-pilketos.moklet.org/",
         title: "Website Pilketos",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "mokletdev",
+        id: "10",
+        image: "/assets/image/Portofolio/Notulenize.jpg",
+        link: "https://notulenize.moklet.org",
+        title: "Notulenize",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "mokletdev",
+        id: "11",
+        image: "/assets/image/Portofolio/Gestura.jpg",
+        link: "https://gesture.moklet.org/",
+        title: "Gestura",
       },
     ],
     team: [
