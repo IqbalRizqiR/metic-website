@@ -22,7 +22,6 @@ export default function RegistrationPage() {
     fullName: "",
     email: "",
     phone: "",
-    class: "",
     nisn: "",
 
     // Division & Motivation
@@ -200,10 +199,6 @@ export default function RegistrationPage() {
           alert("No. WhatsApp harus diisi");
           return false;
         }
-        if (!formData.class) {
-          alert("Kelas harus dipilih");
-          return false;
-        }
         if (!formData.nisn.trim()) {
           alert("NISN harus diisi");
           return false;
@@ -293,7 +288,6 @@ export default function RegistrationPage() {
           /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email) &&
           formData.phone.trim() &&
           /^(\+62|62|0)8[1-9][0-9]{6,9}$/.test(formData.phone) &&
-          formData.class &&
           formData.nisn.trim()
         );
       case 2:
@@ -322,7 +316,6 @@ export default function RegistrationPage() {
       { field: formData.fullName, name: "Nama Lengkap" },
       { field: formData.email, name: "Email" },
       { field: formData.phone, name: "No. WhatsApp" },
-      { field: formData.class, name: "Kelas" },
       { field: formData.nisn, name: "NISN" },
       { field: formData.firstChoice, name: "Pilihan Divisi Pertama" },
       { field: formData.selectedRole, name: "Role" },
@@ -370,7 +363,6 @@ export default function RegistrationPage() {
         fullName: formData.fullName.trim(),
         email: formData.email.trim().toLowerCase(),
         phone: formData.phone.trim(),
-        class: formData.class,
         nisn: formData.nisn.trim(),
         firstChoice: selectedDivision?.name || "",
         selectedRole: selectedRole?.name || "",
@@ -539,35 +531,6 @@ export default function RegistrationPage() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-4">
-              <div className="space-y-2">
-                <label className="block text-sm font-medium text-gray-700">
-                  Kelas *
-                </label>
-                <select
-                  value={formData.class}
-                  onChange={(e) =>
-                    setFormData({ ...formData, class: e.target.value })
-                  }
-                  className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
-                    !formData.class
-                      ? "border-red-300 focus:ring-red-500"
-                      : "border-gray-300 focus:ring-[#A10000]"
-                  }`}
-                >
-                  <option value="">Pilih kelas</option>
-                  <option value="X RPL 1">X RPL 1</option>
-                  <option value="X RPL 2">X RPL 2</option>
-                  <option value="X TKJ 1">X TKJ 1</option>
-                  <option value="X TKJ 2">X TKJ 2</option>
-                  <option value="XI RPL 1">XI RPL 1</option>
-                  <option value="XI RPL 2">XI RPL 2</option>
-                  <option value="XI TKJ 1">XI TKJ 1</option>
-                  <option value="XI TKJ 2">XI TKJ 2</option>
-                </select>
-                {!formData.class && (
-                  <p className="text-sm text-red-600">Kelas wajib dipilih</p>
-                )}
-              </div>
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-gray-700">
                   NISN *
@@ -982,10 +945,6 @@ export default function RegistrationPage() {
                     <p>
                       <span className="font-medium">Phone:</span>{" "}
                       {formData.phone}
-                    </p>
-                    <p>
-                      <span className="font-medium">Kelas:</span>{" "}
-                      {formData.class}
                     </p>
                   </div>
                 </div>
