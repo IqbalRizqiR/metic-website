@@ -40,7 +40,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased overflow-x-hidden`}
       >
         <Navbar />
-        <main className="overflow-x-hidden">{children}</main>
+        <main className="overflow-x-hidden ">{children}</main>
         <Footer />
       </body>
     </html>
