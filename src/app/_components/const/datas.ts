@@ -445,7 +445,7 @@ export const divisi: DivisiProps[] = [
       {
         name: "Tisha Ivana",
         role: "Metizen 32 | UI/UX Designer",
-        image: "/assets/image/ Metizen 32/ Tisha Ivana.jpg",
+        image: "/assets/image/ Metizen 33/ Tisha Ivana.jpg",
       },
       {
         name: "Achmad Rafi Akmal ",
