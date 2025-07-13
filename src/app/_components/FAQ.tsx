@@ -84,14 +84,14 @@ export default function Faq() {
             alt="Paw left"
             width={200}
             height={200}
-            className="absolute bottom-4 left-6 opacity-90 animate-pulse"
+            className="absolute bottom-4 max-sm:hidden left-6 opacity-90 animate-pulse"
           />
           <Image
             src="/assets/image/cakar-kiri.png" // sama dengan atas
             alt="Paw right"
             width={200}
             height={200}
-            className="absolute bottom-4 right-6 opacity-90 animate-pulse"
+            className="absolute bottom-4 max-sm:hidden right-6 opacity-90 animate-pulse"
           />
         </section>
         <div className="block bg-[#E9E2EA] h-5"></div>
