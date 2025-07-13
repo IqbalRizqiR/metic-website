@@ -790,7 +790,7 @@ export const divisi: DivisiProps[] = [
         role: "Metizen 33",
       },
       {
-        image: "/assets/image/Metizen 33/Fadi Alyuliansyah.jpg",
+        image: "/assets/image/Metizen 33/Mochamad Deksa Putra Pratama.jpg",
         name: "M Deksa Putra Pratama",
         role: "Metizen 33 | KOL ( Key Opinion Leader )",
       },
@@ -927,7 +927,7 @@ export const divisi: DivisiProps[] = [
       },
       {
         image: "/assets/image/ Metizen 32/Bilqis Nur Fadhila.jpg",
-        name: "Bilqis Nur Fadhila Ismoyo",
+        name: "Bilqis Nur Fadhila Iswoyo",
         role: "Metizen 32 | Secretary",
       },
       {
