@@ -460,7 +460,7 @@ export const divisi: DivisiProps[] = [
       {
         name: "Rahadyan Alfarisi",
         role: "Metizen 33",
-        image: "/assets/image/Metizen 33/Rahadyan Alfarisi.jpg",
+        image: "/assets/image/Metizen 33/Rahadyan alfarisi.jpg",
       },
       {
         name: "⁠M Dionesia Alfiansyah ",
