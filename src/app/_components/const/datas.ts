@@ -575,7 +575,7 @@ export const divisi: DivisiProps[] = [
       },
       {
         name: "Arsyad Ali Mahardika ",
-        role: "Metizen 32",
+        role: "Metizen 32 | Video Editor",
         image: "/assets/image/ Metizen 32/Arsyad Ali Mahardika.jpg",
       },
     ],
@@ -627,6 +627,46 @@ export const divisi: DivisiProps[] = [
         link: "https://telkom-society.smktelkom-mlg.sch.id/",
         title: "Editing MeTor",
       },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "4",
+        image: "/assets/image/Portofolio/Background Screen.png",
+        link: "https://youtu.be/QXLxU8bFHeQ?feature=shared",
+        title: "MeTor (Metic Tutor)",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "5",
+        image: "/assets/image/Portofolio/Buka Bersama Metizen 2025.png",
+        link: "https://www.instagram.com/p/DHP9_eyyDgM/",
+        title: "Buka Bersama Metizen 2025",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "6",
+        image: "/assets/image/Portofolio/Thumbnail Vlog #1.png",
+        link: "https://youtu.be/rAeivLipO5Q?feature=shared",
+        title: "Pameran Cyber Security dihadiri oleh perwakilan Kemenkumham",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "7",
+        image: "/assets/image/Portofolio/Profile Medcom.png",
+        link: "https://www.instagram.com/p/DC3ZBIOyeV8/",
+        title: "Profile MedCom",
+      },
+      {
+        date: "01/01/2025",
+        sosmed: "medcom",
+        id: "8",
+        image: "/assets/image/Portofolio/Interview Bayu Skak.png",
+        link: "https://www.instagram.com/p/DCBuGSoyuwi/",
+        title: "Interview Bayu Skak",
+      },
     ],
     team: [
       {
@@ -637,7 +677,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Keyza  Alvaro Faiq.jpg",
         name: "Keyza Alvaro Faiq",
-        role: "Metizen 33 | Live Broadcaster",
+        role: "Metizen 33 | Broadcaster",
       },
       {
         image: "/assets/image/ Metizen 32/Fathimah Aqila Zarrah.jpg",
@@ -647,7 +687,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Rabbani Aryanta.jpg",
         name: "M. Rabbani Aryanta",
-        role: "Metizen 33",
+        role: "Metizen 33 | Video Editor",
       },
       {
         image: "/assets/image/ Metizen 32/Dionesia Alfiansyah.jpg",
@@ -657,7 +697,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Pradipta Daniswara.jpg",
         name: "Pradipta Daniswara",
-        role: "Metizen 33 | Live Broadcaster",
+        role: "Metizen 33 | Broadcaster",
       },
       {
         image: "/assets/image/ Metizen 32/Zalmaladzi el Shirazzi.jpg",
@@ -677,7 +717,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Maulana Rizky Ferdinan.jpg",
         name: "M Rizky Ferdinand",
-        role: "Metizen 33",
+        role: "Metizen 33 | KOL ( Key Opinion Leader )",
       },
       {
         image: "/assets/image/ Metizen 32/Aloysius Nathanael Purba.jpg",
@@ -687,17 +727,17 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Feodora Ester.jpg",
         name: "Feodora Ester",
-        role: "Metizen 33",
+        role: "Metizen 33 | Social Media Designer",
       },
       {
         image: "/assets/image/ Metizen 32/Rizq Syafriano Valeant.jpg",
         name: "Rizq Syafriano Valeant",
-        role: "Metizen 32 | Videographer",
+        role: "Metizen 32 | Broadcaster",
       },
       {
         image: "/assets/image/Metizen 33/Fayola Khanza.jpg",
         name: "Fayola Khanza L",
-        role: "Metizen 33",
+        role: "Metizen 33 | Content Writer",
       },
       {
         image: "/assets/image/ Metizen 32/Danish Shafiqa L noerdars.jpg",
@@ -707,7 +747,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Habibi Mahatma.jpg",
         name: "Habibi Mahatma S",
-        role: "Metizen 33 | 3D Designer",
+        role: "Metizen 33 | 3D Designer | Broadcaster",
       },
       {
         image: "/assets/image/ Metizen 32/Azzura Ulfiatufathin.jpg",
@@ -727,12 +767,12 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Abdur Rasyid.jpg",
         name: "Abdur Rasyid H",
-        role: "Metizen 33",
+        role: "Metizen 33 | Video Editor",
       },
       {
         image: "/assets/image/ Metizen 32",
         name: "Leon Adam Royyan ",
-        role: "Metizen 32",
+        role: "Metizen 32 | Social Media Designer",
       },
       {
         image: "/assets/image/Metizen 33/Latifa Irsyadiyah.jpg",
@@ -742,32 +782,32 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/ Metizen 32/Agil Abiyasa.jpg",
         name: "Hafidz Agil Abiyasa",
-        role: "Metizen 32",
+        role: "Metizen 32 | Video Editor | Broadcaster",
       },
       {
         image: "/assets/image/Metizen 33/Ahmad Zaki.jpg",
         name: "Ahmad Zaki",
-        role: "Metizen 33",
+        role: "Metizen 33 | Video Editor",
       },
       {
         image: "/assets/image/ Metizen 32/Keefa Syawal.jpg",
         name: "M Keefa Syawal",
-        role: "Metizen 32",
+        role: "Metizen 32 | Broadcaster",
       },
       {
         image: "/assets/image/Metizen 33/Muhammad Zulkarnaen.jpg",
         name: "Muhammad Zulkarnaen",
-        role: "Metizen 33",
+        role: "Metizen 33 | Social Media Designer",
       },
       {
         image: "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg",
         name: "Moh Abdul Aziz",
-        role: "Metizen 32",
+        role: "Metizen 32 | Social Media Designer",
       },
       {
         image: "/assets/image/Metizen 33/Dzaky Azzam.jpg",
         name: "M Dzaky Azzam",
-        role: "Metizen 33",
+        role: "Metizen 33 | Broadcaster",
       },
       {
         image: "/assets/image/Metizen 33/Muhammad Arifdiansyah.jpg",
@@ -777,22 +817,27 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/alfareza Hans Purnomo.jpg",
         name: "M Alfareza Hans P",
-        role: "Metizen 33 | Live Broadcaster",
+        role: "Metizen 33 | Broadcaster",
       },
       {
         image: "/assets/image/Metizen 33/Kinan Shafin.jpg",
         name: "Kinan Shafin Ibrahim",
-        role: "Metizen 33",
+        role: "Metizen 33 | Social Media Designer",
       },
       {
         image: "/assets/image/Metizen 33/Fadi Alyuliansyah.jpg",
         name: "Fadi Alyuliansyah",
-        role: "Metizen 33",
+        role: "Metizen 33 | Video Editor | Social Media Designer",
       },
       {
         image: "/assets/image/Metizen 33/Mochamad Deksa Putra Pratama.jpg",
         name: "M Deksa Putra Pratama",
         role: "Metizen 33 | KOL ( Key Opinion Leader )",
+      },
+      {
+        image: "/assets/image/Metizen 33/Muhammad Zulkarnaen.jpg",
+        name: "Muhammad Zulkarnaen",
+        role: "Metizen 33 | Social Media Designer",
       },
     ],
   },
@@ -938,7 +983,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/ Metizen 32/Dionesia Alfiansyah.jpg",
         name: "M Dionesia Alfiansyah",
-        role: "Metizen 32 | Graphic Designer",
+        role: "Metizen 32 | Social Media Designer",
       },
       {
         image: "/assets/image/Metizen 33/Nella Salsabila.jpg",
@@ -953,7 +998,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Earlene Zabrina.jpg",
         name: "Earlene Zabrina J",
-        role: "Metizen 33 | Sales and Marketing Manager",
+        role: "Metizen 33 | Social Media Designer",
       },
       {
         image: "/assets/image/ Metizen 32/Moh Abdul Aziz.jpg",
@@ -963,7 +1008,7 @@ export const divisi: DivisiProps[] = [
       {
         image: "/assets/image/Metizen 33/Danish Satria Indie.jpg",
         name: "Danish Satria Indie",
-        role: "Metizen 33 | Sales and Marketing Manager",
+        role: "Metizen 33 | KOL ( Key Opinion Leader )",
       },
       {
         image: "/assets/image/ Metizen 32/Syamil Muwahhid.jpg",
