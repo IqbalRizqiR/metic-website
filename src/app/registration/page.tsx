@@ -147,7 +147,7 @@ export default function RegistrationPage() {
     },
     {
       id: "mediacom",
-      name: "MediaCom",
+      name: "MedCom",
       description: "Fokus pada media digital, branding, dan komunikasi",
       icon: faBullhorn,
       roles: [
@@ -585,8 +585,7 @@ export default function RegistrationPage() {
                         firstChoice: division.id,
                         selectedRole: "",
                       })
-                    }
-                  >
+                    }>
                     <div className="flex flex-col items-center text-center">
                       <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-3">
                         <FontAwesomeIcon
@@ -625,8 +624,7 @@ export default function RegistrationPage() {
                     !formData.selectedRole
                       ? "border-red-300 focus:ring-red-500"
                       : "border-gray-300 focus:ring-[#A10000]"
-                  }`}
-                >
+                  }`}>
                   <option value="">Pilih role dalam divisi ini</option>
                   {selectedDivision?.roles.map((role) => (
                     <option key={role.id} value={role.id}>
@@ -658,8 +656,7 @@ export default function RegistrationPage() {
                 onChange={(e) =>
                   setFormData({ ...formData, secondChoice: e.target.value })
                 }
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A10000] transition-colors"
-              >
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A10000] transition-colors">
                 <option value="">Pilih divisi alternatif</option>
                 {divisions.map((division) => (
                   <option key={division.id} value={division.id}>
@@ -702,8 +699,7 @@ export default function RegistrationPage() {
                     formData.motivation.length < 50
                       ? "text-red-500"
                       : "text-gray-500"
-                  }`}
-                >
+                  }`}>
                   {formData.motivation.length}/50 minimum
                 </span>
               </div>
@@ -787,8 +783,7 @@ export default function RegistrationPage() {
                 ].map((option) => (
                   <div
                     key={option.value}
-                    className="flex items-center space-x-3"
-                  >
+                    className="flex items-center space-x-3">
                     <input
                       type="radio"
                       id={option.value}
@@ -805,8 +800,7 @@ export default function RegistrationPage() {
                     />
                     <label
                       htmlFor={option.value}
-                      className="text-sm text-gray-700"
-                    >
+                      className="text-sm text-gray-700">
                       {option.label}
                     </label>
                   </div>
@@ -852,8 +846,7 @@ export default function RegistrationPage() {
                     formData.commitment.length < 30
                       ? "text-red-500"
                       : "text-gray-500"
-                  }`}
-                >
+                  }`}>
                   {formData.commitment.length}/30 minimum
                 </span>
               </div>
@@ -892,8 +885,7 @@ export default function RegistrationPage() {
                     formData.expectations.length < 30
                       ? "text-red-500"
                       : "text-gray-500"
-                  }`}
-                >
+                  }`}>
                   {formData.expectations.length}/30 minimum
                 </span>
               </div>
@@ -1011,8 +1003,7 @@ export default function RegistrationPage() {
                 />
                 <label
                   htmlFor="commitment-agree"
-                  className="text-sm text-gray-700"
-                >
+                  className="text-sm text-gray-700">
                   Saya berkomitmen untuk aktif dan berkontribusi dalam kegiatan
                   METIC
                 </label>
@@ -1057,8 +1048,7 @@ export default function RegistrationPage() {
             <div className="space-y-3">
               <Link
                 href="/"
-                className="w-full inline-block bg-[#A10000] hover:bg-red-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
-              >
+                className="w-full inline-block bg-[#A10000] hover:bg-red-700 text-white font-medium py-3 px-6 rounded-lg transition-colors">
                 Kembali ke Beranda
               </Link>
             </div>
@@ -1107,8 +1097,7 @@ export default function RegistrationPage() {
                     : `calc(${
                         ((currentStep - 1) / (steps.length - 1)) * 100
                       }% - 1rem)`,
-              }}
-            ></div>
+              }}></div>
 
             {/* Steps */}
             <div className="relative flex items-center justify-between">
@@ -1121,8 +1110,7 @@ export default function RegistrationPage() {
                         : isStepValid(step.id)
                         ? "border-green-500 text-green-600"
                         : "border-gray-300 text-gray-400"
-                    }`}
-                  >
+                    }`}>
                     <span className="text-sm font-medium">{step.id}</span>
                   </div>
                   <div className="mt-2 text-center">
@@ -1133,8 +1121,7 @@ export default function RegistrationPage() {
                           : isStepValid(step.id)
                           ? "text-green-600"
                           : "text-gray-400"
-                      }`}
-                    >
+                      }`}>
                       {step.title}
                     </p>
                   </div>
@@ -1167,8 +1154,7 @@ export default function RegistrationPage() {
               currentStep === 1
                 ? "border-gray-300 text-gray-400 cursor-not-allowed"
                 : "border-gray-300 text-gray-700 hover:bg-gray-50"
-            }`}
-          >
+            }`}>
             <FontAwesomeIcon icon={faChevronLeft} className="h-4 w-4" />
             <span>Previous</span>
           </button>
@@ -1176,8 +1162,7 @@ export default function RegistrationPage() {
           {currentStep < 5 ? (
             <button
               onClick={handleNext}
-              className="flex items-center space-x-2 bg-[#A10000] hover:bg-red-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
-            >
+              className="flex items-center space-x-2 bg-[#A10000] hover:bg-red-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
               <span>Next</span>
               <FontAwesomeIcon icon={faChevronRight} className="h-4 w-4" />
             </button>
@@ -1191,8 +1176,7 @@ export default function RegistrationPage() {
                 !formData.agreeTerms || !formData.agreeCommitment || isLoading
                   ? "bg-gray-400 cursor-not-allowed text-white"
                   : "bg-[#A10000] hover:bg-red-700 text-white"
-              }`}
-            >
+              }`}>
               {isLoading ? "Submitting..." : "Submit Registration"}
             </button>
           )}

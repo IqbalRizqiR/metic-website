@@ -187,7 +187,7 @@ export const dataFAQ: FAQCardProps[] = [
     profileImg: "/assets/image/ketuaintern.png",
     question: "Tapi aku nggak jago coding atau desain, masih bisa masuk gak?",
     response: [
-      "Santai aja, bestie. Kita bukan nyari yang paling jago, tapi yang mau belajar dan grow bareng. Skill bisa diasah, yang penting niat & vibes-nya dapet ✨."
+      "Santai aja, bestie. Kita bukan nyari yang paling jago, tapi yang mau belajar dan grow bareng. Skill bisa diasah, yang penting niat & vibes-nya dapet ✨.",
     ],
   },
   {
@@ -195,7 +195,7 @@ export const dataFAQ: FAQCardProps[] = [
     question: "Semua orang bisa milih divisi yang sama?",
     response: [
       "Bisa banget dong!",
-      "Asal kamu ngerti jobdesc-nya dan siap komit, gas aja. Tapi jangan lupa, masing-masing divisi punya tantangan sendiri yaa 🚀."
+      "Asal kamu ngerti jobdesc-nya dan siap komit, gas aja. Tapi jangan lupa, masing-masing divisi punya tantangan sendiri yaa 🚀.",
     ],
   },
   {
@@ -203,14 +203,14 @@ export const dataFAQ: FAQCardProps[] = [
     question: "Kalo masuk METIC, dapet apa aja nih?",
     response: [
       "Sini Minca kasih benefitnya! 👀",
-      "Jadi workspace METIC pake Notion Pro yang rapi dan akses Figma Education buat desain dan prototyping yang pastinya, tidak lupa juga dengan akun Capcut Pro yang keren abiez."
+      "Jadi workspace METIC pake Notion Pro yang rapi dan akses Figma Education buat desain dan prototyping yang pastinya, tidak lupa juga dengan akun Capcut Pro yang keren abiez.",
     ],
   },
   {
     profileImg: "/assets/image/ketuaintern.png",
     question: "Di METIC ada pelatihan atau mentor gitu gak sih?",
     response: [
-      "Ada dong! Lo gak bakal dilepas sendirian. Setiap divisi biasanya punya onboarding dan mentoring session. Jadi lo bisa adapt dan upgrade skill lo pelan-pelan 🎯."
+      "Ada dong! Lo gak bakal dilepas sendirian. Setiap divisi biasanya punya onboarding dan mentoring session. Jadi lo bisa adapt dan upgrade skill lo pelan-pelan 🎯.",
     ],
   },
   {
@@ -218,7 +218,7 @@ export const dataFAQ: FAQCardProps[] = [
     question: "Join METIC tuh cuma buat jurusan tertentu aja?",
     response: [
       "Ngga dongg",
-      "METIC terbuka buat semua jurusan di SMK Telkom Malang. Yang penting itu kamu punya passion di dunia teknologi, digital, atau media 🌐."
+      "METIC terbuka buat semua jurusan di SMK Telkom Malang. Yang penting itu kamu punya passion di dunia teknologi, digital, atau media 🌐.",
     ],
   },
   {
@@ -226,7 +226,7 @@ export const dataFAQ: FAQCardProps[] = [
     question: "Di METIC ada senioritas gak?",
     response: [
       "Big no!",
-      "Kita anti senioritas. Semua punya suara, semua bisa berkontribusi. Kita percaya yang keren itu yang kolaboratif, bukan yang sok tua 😌✊."
+      "Kita anti senioritas. Semua punya suara, semua bisa berkontribusi. Kita percaya yang keren itu yang kolaboratif, bukan yang sok tua 😌✊.",
     ],
   },
   {
@@ -234,7 +234,7 @@ export const dataFAQ: FAQCardProps[] = [
     question: "Eh, kalo mau join lebih dari satu divisi boleh gak?",
     response: [
       "Boleh banget pastinyaaa",
-      "Asal kalo kuat dan time management kamu oke. Tapi saran kita sih fokus dulu di satu divisi biar impact-nya lebih kerasa 🔥."
+      "Asal kalo kuat dan time management kamu oke. Tapi saran kita sih fokus dulu di satu divisi biar impact-nya lebih kerasa 🔥.",
     ],
   },
   {
@@ -242,7 +242,6 @@ export const dataFAQ: FAQCardProps[] = [
     question: "METIC tuh serius banget ya? Gak fun dong?",
     response: [
       "Wah justru kebalik. Kita emang serius di kerjaan, tapi juga fun di vibes-nya. Banyak project seru, ngobrol santai, dan kadang ngopi-ngopi lucu sambil bahas UI/UX 😎☕",
-     
     ],
   },
 ];
@@ -582,10 +581,9 @@ export const divisi: DivisiProps[] = [
   },
   {
     image: "/assets/image/logo-medcom.png",
-    preview:
-      "Berfokus pada pengelolaan konten kreatif, manajemen media sosial, publikasi, serta komunikasi digital",
+    preview: "Berfokus pada edukasi, personal branding dan media partner",
     desc: ``,
-    name: "Medcom",
+    name: "MedCom",
     alias: "Media Communication",
     id: "2",
     prokja: [
@@ -622,14 +620,6 @@ export const divisi: DivisiProps[] = [
       {
         date: "01/01/2025",
         sosmed: "medcom",
-        id: "3",
-        image: "/assets/image/Portofolio/Tumnail edit metor.png",
-        link: "https://telkom-society.smktelkom-mlg.sch.id/",
-        title: "Editing MeTor",
-      },
-      {
-        date: "01/01/2025",
-        sosmed: "medcom",
         id: "4",
         image: "/assets/image/Portofolio/Background Screen.png",
         link: "https://youtu.be/QXLxU8bFHeQ?feature=shared",
@@ -647,7 +637,7 @@ export const divisi: DivisiProps[] = [
         date: "01/01/2025",
         sosmed: "medcom",
         id: "6",
-        image: "/assets/image/Portofolio/Thumbnail Vlog #1.png",
+        image: "/assets/image/Portofolio/ThumbnailCyber.png",
         link: "https://youtu.be/rAeivLipO5Q?feature=shared",
         title: "Pameran Cyber Security dihadiri oleh perwakilan Kemenkumham",
       },

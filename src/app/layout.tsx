@@ -4,7 +4,6 @@ import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Navbar from "./_components/Navbar";
-import Footer from "./_components/Footer";
 config.autoAddCss = false;
 
 const geistSans = Geist({
@@ -41,7 +40,6 @@ export default function RootLayout({
       >
         <Navbar />
         <main className="overflow-x-hidden ">{children}</main>
-        <Footer />
       </body>
     </html>
   );
