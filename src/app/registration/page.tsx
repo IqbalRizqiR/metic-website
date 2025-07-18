@@ -208,7 +208,7 @@ export default function RegistrationPage() {
           alert("Format email tidak valid");
           return false;
         }
-        const phoneRegex = /^(\+62|62|0)8[1-9][0-9]{6,9}$/;
+        const phoneRegex = /^(\+62|62|0)8[1-9][0-9]{6,11}$/;
         if (!phoneRegex.test(formData.phone)) {
           alert(
             "Format nomor WhatsApp tidak valid (gunakan format: 08xxxxxxxxxx)"
@@ -287,7 +287,7 @@ export default function RegistrationPage() {
           formData.email.trim() &&
           /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email) &&
           formData.phone.trim() &&
-          /^(\+62|62|0)8[1-9][0-9]{6,9}$/.test(formData.phone) &&
+          /^(\+62|62|0)8[1-9][0-9]{6,11}$/.test(formData.phone) &&
           formData.nisn.trim()
         );
       case 2:
@@ -511,7 +511,7 @@ export default function RegistrationPage() {
                   }
                   className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                     !formData.phone.trim() ||
-                    !/^(\+62|62|0)8[1-9][0-9]{6,9}$/.test(formData.phone)
+                    !/^(\+62|62|0)8[1-9][0-9]{6,11}$/.test(formData.phone)
                       ? "border-red-300 focus:ring-red-500"
                       : "border-gray-300 focus:ring-[#A10000]"
                   }`}
@@ -522,7 +522,7 @@ export default function RegistrationPage() {
                   </p>
                 )}
                 {formData.phone.trim() &&
-                  !/^(\+62|62|0)8[1-9][0-9]{6,9}$/.test(formData.phone) && (
+                  !/^(\+62|62|0)8[1-9][0-9]{6,11}$/.test(formData.phone) && (
                     <p className="text-sm text-red-600">
                       Format nomor tidak valid (gunakan: 08xxxxxxxxxx)
                     </p>
